@@ -37,7 +37,37 @@
   }
 }
 
-.itemcompleted{
+.itemcompleted {
   text-decoration: line-through;
   background-color: pink;
+  width: 20%;
+}
+body {
+  background-color: teal;
+}
+
+button {
+  background-color: tomato;
+  color: white;
+}
+
+h1 {
+  color: #00b2f0;
+}
+
+.todo-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.item {
+  background-color: #ffc300;
+  width: 20%;
+  text-align: center;
+  margin: 4px 0;
+  padding-left: 8px;
+  cursor: pointer;
 }
